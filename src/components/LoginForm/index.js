@@ -7,8 +7,8 @@ class Login extends Component {
 
   onSubmitForm = async event => {
     event.preventDefault()
-    const {username, password} = this.state
-    const userDetails = {username, password}
+    const {userName, password} = this.state
+    const userDetails = {userName, password}
     const url = 'https://apis.ccbp.in/login'
     const options = {
       method: 'POST',
@@ -17,6 +17,7 @@ class Login extends Component {
     const response = await fetch(url, options)
     const data = await response.json()
     console.log(data)
+    console.log(response.ok)
   }
 
   onChangeUserName = event => {
