@@ -1,0 +1,76 @@
+/* Write your CSS code here */
+.home-bg-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-heading {
+  font-size: 30px;
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-family: 'Roboto';
+  align-items: center;
+}
+
+.boy-image {
+  width: 50%;
+}
+
+.large-boy-image {
+  display: none;
+}
+
+.home-para {
+  font-size: 15px;
+  color: #475569;
+  font-family: 'Roboto';
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.home-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shop-now-button {
+  width: 200px;
+  height: 40px;
+  background-color: #0967d2;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+@media all and (min-width: 768px) {
+  .large-boy-image {
+    display: flex;
+    width: 40%;
+  }
+
+  .boy-image {
+    display: none;
+  }
+
+  .container {
+    width: 40%;
+    text-align: left;
+    align-items: flex-start;
+  }
+  .home-content-container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}

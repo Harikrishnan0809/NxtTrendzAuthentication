@@ -1,0 +1,84 @@
+/* Write your CSS code here */
+.nav-logo {
+  width: 150px;
+}
+
+.nav-container {
+  padding: 15px;
+  width: 100%;
+}
+
+.nav-log-out-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.button-logo-log-out {
+  height: 30px;
+  width: 30px;
+}
+
+.nav-logo-button-link-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-un-order-list-text-container {
+  display: none;
+}
+
+.nav-list-text {
+  margin-right: 20px;
+}
+
+.nav-link-tex {
+  text-decoration: none;
+  color: #475569;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+
+.logout-text-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  padding: 5px;
+  border: none;
+  font-weight: bold;
+  font-family: 'Roboto';
+  width: 80px;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-log-out-button {
+    display: none;
+  }
+
+  .nav-logo {
+    width: 200px;
+  }
+
+  .nav-link-logo {
+    display: none;
+  }
+
+  .nav-un-order-list-text-container {
+    display: flex;
+    list-style-type: none;
+  }
+}
+
+.un-order-list-logo-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  background-color: #e6f6ff;
+}
+
+.nav-link-logo {
+  height: 35px;
+  width: 35px;
+}
